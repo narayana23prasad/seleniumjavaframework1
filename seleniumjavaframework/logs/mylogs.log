@@ -1,0 +1,8 @@
+[TRACE] 2020-04-25 11:59:09.008 [main] log4jdemo - this is trace message
+[INFO ] 2020-04-25 11:59:09.015 [main] log4jdemo - this is info
+[ERROR] 2020-04-25 11:59:09.016 [main] log4jdemo - this is error
+[WARN ] 2020-04-25 11:59:09.016 [main] log4jdemo - this is a fatal message
+[TRACE] 2020-04-25 12:01:27.543 [main] log4jdemo - this is trace message
+[INFO ] 2020-04-25 12:01:27.550 [main] log4jdemo - this is info
+[ERROR] 2020-04-25 12:01:27.550 [main] log4jdemo - this is error
+[WARN ] 2020-04-25 12:01:27.550 [main] log4jdemo - this is a fatal message
