@@ -1,6 +1,6 @@
 package demo;
 
-import org.apache.logging.log4j.core.net.Priority;
+
 import org.testng.annotations.Test;
 
 public class testNGprioritydemo {

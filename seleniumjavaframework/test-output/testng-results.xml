@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12492" started-at="2020-04-26T10:04:31Z" finished-at="2020-04-26T10:04:44Z">
+  <suite name="Suite1" duration-ms="16105" started-at="2020-04-26T17:55:27Z" finished-at="2020-04-26T17:55:43Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12492" started-at="2020-04-26T10:04:31Z" finished-at="2020-04-26T10:04:44Z">
-      <class name="demo.katalonrecorderdemo">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.katalonrecorderdemo@2db7a79b]" name="setUp" is-config="true" duration-ms="3918" started-at="2020-04-26T10:04:31Z" finished-at="2020-04-26T10:04:35Z">
+    <test name="Test1" duration-ms="16105" started-at="2020-04-26T17:55:27Z" finished-at="2020-04-26T17:55:43Z">
+      <class name="test.test1_googlesearch_TestNG_demo2">
+        <test-method status="PASS" signature="googlesearch3()[pri:0, instance:test.test1_googlesearch_TestNG_demo2@66d1af89]" name="googlesearch3" duration-ms="2310" started-at="2020-04-26T17:55:34Z" finished-at="2020-04-26T17:55:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testUntitledTestCase()[pri:0, instance:demo.katalonrecorderdemo@2db7a79b]" name="testUntitledTestCase" duration-ms="7627" started-at="2020-04-26T10:04:35Z" finished-at="2020-04-26T10:04:43Z">
+        </test-method> <!-- googlesearch3 -->
+      </class> <!-- test.test1_googlesearch_TestNG_demo2 -->
+      <class name="test.test1_googlesearch_TestNG_demo">
+        <test-method status="PASS" signature="setuptest()[pri:0, instance:test.test1_googlesearch_TestNG_demo@4a87761d]" name="setuptest" is-config="true" duration-ms="3635" started-at="2020-04-26T17:55:27Z" finished-at="2020-04-26T17:55:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUntitledTestCase -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.katalonrecorderdemo@2db7a79b]" name="tearDown" is-config="true" duration-ms="892" started-at="2020-04-26T10:04:43Z" finished-at="2020-04-26T10:04:44Z">
+        </test-method> <!-- setuptest -->
+        <test-method status="PASS" signature="setuptest()[pri:0, instance:test.test1_googlesearch_TestNG_demo2@66d1af89]" name="setuptest" is-config="true" duration-ms="2638" started-at="2020-04-26T17:55:31Z" finished-at="2020-04-26T17:55:34Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- demo.katalonrecorderdemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- setuptest -->
+        <test-method status="PASS" signature="googlesearch()[pri:0, instance:test.test1_googlesearch_TestNG_demo@4a87761d]" name="googlesearch" duration-ms="4040" started-at="2020-04-26T17:55:34Z" finished-at="2020-04-26T17:55:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googlesearch -->
+        <test-method status="PASS" signature="teardowntest()[pri:0, instance:test.test1_googlesearch_TestNG_demo@4a87761d]" name="teardowntest" is-config="true" duration-ms="2358" started-at="2020-04-26T17:55:38Z" finished-at="2020-04-26T17:55:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardowntest -->
+        <test-method status="PASS" signature="teatdowntest()[pri:0, instance:test.test1_googlesearch_TestNG_demo2@66d1af89]" name="teatdowntest" is-config="true" duration-ms="3384" started-at="2020-04-26T17:55:40Z" finished-at="2020-04-26T17:55:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teatdowntest -->
+      </class> <!-- test.test1_googlesearch_TestNG_demo -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
 </testng-results>
