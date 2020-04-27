@@ -17,7 +17,7 @@ public class testNGmultibrowserdemo {
 	String projectpath = System.getProperty("user.dir");
 	
 	@Parameters("browsername")
-	
+	//String browsername = "chrome";
 	@BeforeTest
 	public void setup(String browsername){
 		System.out.println("Browser name is: "+browsername);

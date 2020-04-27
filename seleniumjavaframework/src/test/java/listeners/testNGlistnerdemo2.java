@@ -4,7 +4,6 @@ import org.testng.SkipException;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-import junit.framework.Assert;
 
 //@Listeners(listeners.testNGlisteners.class)
 public class testNGlistnerdemo2 {
